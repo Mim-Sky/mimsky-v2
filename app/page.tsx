@@ -7,7 +7,9 @@ import About from "../components/About";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
+
 import { motion, useReducedMotion, MotionConfig } from "framer-motion";
+
 
 export const metadata: Metadata = {
   title: "Mimsky's portfolio",
@@ -16,8 +18,9 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <MotionConfig reducedMotion="user">  
-    <div className="bg-[rgb(36,36,36)] text-amber-500 h-screen snap-y snap-mandatory z-0 overflow-scroll">
+    <MotionConfig reducedMotion="user">
+    {/*  */}
+    <div className="bg-[rgb(36,36,36)] text-amber-500 h-screen marker:snap-y snap-mandatory z-0 overflow-scroll">  {}
       {/* {HEADER} */}
       <Header />
       {/* {HERO} */} 
