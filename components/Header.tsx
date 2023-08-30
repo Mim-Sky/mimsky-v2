@@ -1,17 +1,16 @@
 "use client";
 import React from "react";
 import { SocialIcon } from 'react-social-icons';
-import { motion } from "framer-motion";
+import { motion, useReducedMotion, MotionConfig } from "framer-motion";
+
 
 
 type Props = {};
 
 export default function Header({}: Props) {
   return (
-    // sticky top-0? in header //
-  <header className="flex p-5 justify-between max-w-7xl mx-auto z-50 xl:items-center"> 
-    {/* Social icons */} 
-    <motion.div    
+  <header className="sticky top-0 flex p-5 justify-between max-w-4xl mx-auto z-50 "> 
+    <motion.div
     initial={{
       x: -500,
       opacity: 0,
@@ -60,9 +59,11 @@ export default function Header({}: Props) {
         fgColor="gray"
         bgColor="transparent"
       />
-      <p className="upperCase hidden md:inline-flex text-gray-400 ">
+      <button className="bg-[#F7AB0A] hover:bg-[#f0be54] duration-200 ease-in-out text-white font-bold py-2 px-4 rounded-full hidden md:inline-flex">
+      <p className="upperCase">
         Get In Touch
       </p>
+      </button>
     </motion.div>
   </header>
   );
