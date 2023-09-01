@@ -2,11 +2,7 @@
 import React from "react";
 import { SocialIcon } from 'react-social-icons';
 import { motion, useReducedMotion, MotionConfig } from "framer-motion";
-
-
-
 type Props = {};
-
 export default function Header({}: Props) {
   return (
   <header className="sticky top-0 flex p-5 justify-between max-w-4xl mx-auto z-50"> 
@@ -59,7 +55,7 @@ export default function Header({}: Props) {
         fgColor="gray"
         bgColor="transparent"
       />
-      <button className="bg-[#F7AB0A] hover:bg-[#f0be54] duration-200 ease-in-out text-white text-xs font-bold py-2 px-4 rounded-full hidden md:inline-flex">
+      <button className= " text-[#F7AB0A] hover:ring-2 ring-[#F7AB0A] duration-200 ease-in-out font-bold text-xs py-2 px-4 rounded-full hidden md:inline-flex">
       <p className="upperCase">
         Get In Touch
       </p>
