@@ -9,10 +9,7 @@ import Hero from "../components/Hero";
 import WorkExpirience from "../components/WorkExpirience";
 import { motion, useReducedMotion, MotionConfig } from "framer-motion";
 
-export const metadata: Metadata = {
-  title: "Mimsky's portfolio",
-  description: "...",
-};
+
 
 export default function Home() {
   return (
@@ -30,7 +27,7 @@ export default function Home() {
       <About />
       </section>
       {/* {EXPIRIENCE} */}
-      <section>
+      <section id="expirience" className="snap-center">
         <WorkExpirience />
       </section>
       {/* SKILLS */}
