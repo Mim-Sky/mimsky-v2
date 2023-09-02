@@ -57,7 +57,7 @@ export default function Header({}: Props) {
         fgColor="gray"
         bgColor="transparent"
       />
-      <button className= " text-[#F7AB0A] hover:ring-2 ring-[#F7AB0A] duration-200 ease-in-out font-bold text-xs py-2 px-4 rounded-full hidden md:inline-flex">
+      <button className= " text-[#F7AB0A] hover:ring-2 ring-[#F7AB0A] duration-200 ease-in-out font-bold text-xl py-2 px-4 rounded-full hidden md:inline-flex">
       <p className="upperCase">
         Get In Touch
       </p>

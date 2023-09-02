@@ -4,6 +4,7 @@ import About from "../components/About";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import WorkExpirience from "../components/WorkExpirience";
+import Skills from "../components/Skills";
 import { motion, useReducedMotion, MotionConfig } from "framer-motion";
 
 
@@ -28,7 +29,9 @@ export default function Home() {
         <WorkExpirience />
       </section>
       {/* SKILLS */}
-
+        <section id="skills" className="snap-center">
+        <Skills />
+        </section>
       {/* PROJECTS */}
 
       {/* CONTACT ME */}

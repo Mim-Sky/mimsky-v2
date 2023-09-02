@@ -6,11 +6,13 @@ type Props = {}
 
 export default function About({}: Props) {
   return (
-    <div className="h-screen max-w-4xl mx-auto">
-
-{/* className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-3xl mx-auto justify-center items-center pd-10"> */}
-      <div className='py-14'>
-        <h3 className=" flex justify-center items-center uppercase tracking-[15px] text-xl text-grey">
+    <motion.div 
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+      viewport={{ once: true }}className="h-screen max-w-4xl mx-auto">
+      <div className='py-28 flex justify-center'>
+        <h3 className="uppercase tracking-[15px] text-xl text-grey">
           About
         </h3>
       </div>
@@ -42,7 +44,7 @@ export default function About({}: Props) {
         </p>
         </div>
       </div>
-    </div>
+    </motion.div>
      
 
   )
