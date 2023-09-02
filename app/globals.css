@@ -12,8 +12,13 @@
 
 @layer components {
   .heroButton {
-    @apply px-6 py-2 rounded-full  uppercase text-xs tracking-widest font-semibold text-grey transition-all hover:ring-1 ring-yellow/40  hover:text-yellow/40 ;
+    @apply px-6 py-2 rounded-full  uppercase text-xs tracking-widest font-semibold text-grey transition-all hover:ring-1 ring-siteYellow/40  hover:text-siteYellow/40 ;
   } 
+
+.contactInput {
+  @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-grey placeholder-grey transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/40 hover:border-[#F7AB0A]/40
+}
+
 }
 
 

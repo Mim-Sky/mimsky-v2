@@ -34,40 +34,40 @@ export default function Hero({}: Props) {
   transition={{
     duration: 1.6,
   }}
-  
-  className='h-screen flex space-y-10 flex-col items-center justify-center text-center overflow-hidden'>
+  className="h-screen flex space-y-10 flex-col items-center justify-center text-center overflow-hidden">
     <Image className=' rounded-full mx-auto object-cover'
         alt="mimsky"
         src={mimsky}
         width={128}
         height={128}
         />
-        
     <div className="z-20">
-      <h2 className="text-sm uppercase text-grey pb-2 tracking-[0.8rem] font-semibold ">Web developer
+      <h2 className="text-sm uppercase text-grey pb-2 tracking-[0.8rem] font-semibold">
+        Web developer
       </h2>
     </div>
     
     <div>
       <h1 className="text-xl lg:text-3xl font-semibold px-10">
         <span>{text}</span>
-        <Cursor cursorColor="yellow"/>
+        <Cursor cursorColor="siteYellow"/>
       </h1>
     </div>
     
-      <div className="z-10 flex flex-row space-x-2 pt-12">
+      <div className="z-10 flex flex-col md:flex-row space-x-2 pt-12 items-center">
       <a href="#about">
-        <button className="heroButton">About</button>
+        <button className="heroButton outline-none">About</button>
       </a>
       <a href="#expirience">
-        <button className="heroButton">Experience</button>
-      </a>
-      <a href="#skills">
-        <button className="heroButton">Skills</button>
+        <button className="heroButton outline-none">Experience</button>
       </a>
       <a href="#projects">
-        <button className="heroButton">Projects</button>
+        <button className="heroButton outline-none">Projects</button>
       </a>
+      <a href="#contact">
+        <button className="heroButton outline-none">Contact</button>
+      </a>
+      
     </div>   
   </motion.div>
   )

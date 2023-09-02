@@ -10,11 +10,12 @@ export default function About({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      viewport={{ once: true }}className="h-screen max-w-4xl mx-auto">
+      viewport={{ once: true }}
+      className="h-screen max-w-4xl mx-auto">
       <div className='pt-28 pb-10 flex justify-center'>
-        <h3 className="uppercase tracking-[15px] text-xl text-grey">
+        <h2 className="uppercase tracking-[15px] text-xl text-grey">
           About
-        </h3>
+        </h2>
       </div>
       <div className='flex flex-col md:flex-row items-center md:space-x-5 space-y-5 '>
       <motion.div

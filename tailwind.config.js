@@ -9,11 +9,13 @@ module.exports = {
     extend: {
       colors: {
         grey: '#909090',
-        yellow: '#F7AB0A',
+        siteYellow: '#F7AB0A',
         whiteText: '#FAF9F6',
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
 
