@@ -39,8 +39,8 @@ export default function Hero({}: Props) {
     <Image className=' rounded-full mx-auto object-cover'
         alt="mimsky"
         src={mimsky}
-        width={96}
-        height={96}
+        width={128}
+        height={128}
         />
         
     <div className="z-20">
