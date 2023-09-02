@@ -4,7 +4,7 @@ import About from "../components/About";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import WorkExpirience from "../components/WorkExpirience";
-// import Projects from "../components/Projects";
+import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import { motion, useReducedMotion, MotionConfig } from "framer-motion";
 import Link from 'next/link'
@@ -26,9 +26,9 @@ function Home() {
         <section id="expirience" className="snap-center">
           <WorkExpirience />
         </section>
-        {/* <section id="projects" className="snap-start">
+        <section id="projects" className="snap-start">
           <Projects />
-        </section> */}
+        </section>
         <section id="contact" className="snap-start">
           <ContactMe />
         </section>
