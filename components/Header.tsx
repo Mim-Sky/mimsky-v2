@@ -2,7 +2,9 @@
 import React from "react";
 import { SocialIcon } from 'react-social-icons';
 import { motion, useReducedMotion, MotionConfig } from "framer-motion";
+
 type Props = {};
+
 export default function Header({}: Props) {
   return (
   <header className="sticky top-0 flex p-5 justify-between max-w-4xl mx-auto z-50"> 

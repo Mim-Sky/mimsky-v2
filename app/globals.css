@@ -12,7 +12,8 @@
 
 @layer components {
   .heroButton {
-    @apply px-6 py-2 rounded-full  uppercase text-xs tracking-widest font-semibold text-grey transition-all hover:ring-1 ring-yellow/40  hover:text-yellow/40
-  }
+    @apply px-6 py-2 rounded-full  uppercase text-xs tracking-widest font-semibold text-grey transition-all hover:ring-1 ring-yellow/40  hover:text-yellow/40 ;
+  } 
 }
+
 
