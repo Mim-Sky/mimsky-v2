@@ -21,9 +21,9 @@
 
 }
 
-@layer components {
-  body {
-    @apply outline-none;
+@layer base {
+  html {
+      -webkit-tap-highlight-color: transparent;
   }
 }
 
