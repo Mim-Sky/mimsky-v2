@@ -21,4 +21,10 @@
 
 }
 
+@layer components {
+  body {
+    @apply outline-none;
+  }
+}
+
 
