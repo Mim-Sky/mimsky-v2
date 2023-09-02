@@ -26,7 +26,7 @@ function Projects({}: Props) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             >
-            <Image src="/sample.jpg" alt="project screened on different devices" width={360} height={360}></Image>
+            <Image src="/sample.jpg" alt="project screened on different devices" width={200} height={200}></Image>
           </motion.div>
           <div className="space-y-10 px-0 md:px-10 max-w-6xl ">
             <h4 className="text-4xl font-semibold text-center">
