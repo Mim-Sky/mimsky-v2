@@ -16,9 +16,6 @@ export default defineType({
       title: 'Url',
       type: 'url',
     }),
-    
-
-
     ],
 
 })
