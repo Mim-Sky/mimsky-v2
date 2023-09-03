@@ -10,7 +10,7 @@ function ContactForm() {
   }
   return (
       <form onSubmit={handleSubmit}
-      className="flex flex-col space-y-2 w-fit mx-auto"
+      className="flex flex-col space-y-3 w-fit mx-auto"
        >
       <input
         className="contactInput"
