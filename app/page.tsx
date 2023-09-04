@@ -6,7 +6,6 @@ import Hero from "../components/Hero";
 import WorkExpirience from "../components/WorkExpirience";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
-
 import { motion, useReducedMotion, MotionConfig } from "framer-motion";
 import Link from 'next/link'
 import {ChevronUpIcon} from '@heroicons/react/24/solid';
