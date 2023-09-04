@@ -6,12 +6,17 @@ import Hero from "../components/Hero";
 import WorkExpirience from "../components/WorkExpirience";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
+
 import { motion, useReducedMotion, MotionConfig } from "framer-motion";
 import Link from 'next/link'
 import {ChevronUpIcon} from '@heroicons/react/24/solid';
 
 
-function Home() {
+async function getData() {
+
+}
+
+ function Home() {
   return (
     <MotionConfig reducedMotion="user">
       <div className="bg-[rgb(36,36,36)] text-whiteText h-screen snap-y snap-mandatory z-0 overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-400/20
@@ -44,7 +49,17 @@ function Home() {
         
       </div>
     </MotionConfig>
+    
   );
 }
 
 export default Home;
+
+
+
+
+
+
+
+
+

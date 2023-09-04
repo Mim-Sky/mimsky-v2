@@ -30,18 +30,24 @@ export default function ExpCard({}: Props) {
         />
       </motion.div>
       <section className="text-whiteText px-0 md:px-10 overflow-y-auto  ">
-        <h4 className="text-3xl font-light">WEB DEVELOPER</h4>
-        <p className="font-bold text-1xl mt-1">GoWork.pl</p>
+        <h4 className="text-3xl font-light">CURRENTLY LEARNING</h4>
         <div className="flex space-x-2 my-2">
         <Image
-          src="/html.png"
+          src="/react.png"
           width={150}
           height={150}
           alt="gowork company logo"
           className="w-10 h-10"
         />
         <Image
-          src="/css3.png"
+          src="/nextjs.png"
+          width={150}
+          height={150}
+          alt="gowork company logo"
+          className="w-10 h-10"
+        />
+        <Image
+          src="/ts.png"
           width={150}
           height={150}
           alt="gowork company logo"
@@ -55,13 +61,6 @@ export default function ExpCard({}: Props) {
           className="w-10 h-10"
         />
         <Image
-          src="/wordpress.png"
-          width={150}
-          height={150}
-          alt="gowork company logo"
-          className="w-10 h-10"
-        />
-        <Image
           src="/javascript.png"
           width={150}
           height={150}
@@ -69,12 +68,12 @@ export default function ExpCard({}: Props) {
           className="w-16 h-10"
         />
         </div>
-        <p className="uppercase py-5 text-gray ">Started work 05.2023 - </p>
+        <p className="uppercase py-5 text-gray ">Started: 10-2022 - </p>
         <ul className="text-whiteText list-disc space-y-4 ml-5 text-md ">
-          <li>Design and deployment of new web apps and layouts using HTML, CSS and Bootstrap CSS</li>
-          <li>Frontend layout technologies: Flexbox, Grid, Bootstrap</li>
-          <li>Backend: PHP</li>
-          <li>Wordpress administration (updates, plugins etc.)</li>
+          <li>FrontEnd development: JavaScript, TrueScript, React.js </li>
+          <li>Backend development: PHP and Next.js</li>
+          <li>Backend: Node.js, Next.js</li>
+          <li>Sanity.io CMS implementation</li>
         </ul>
       </section>
     </article>

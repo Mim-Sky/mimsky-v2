@@ -51,17 +51,18 @@ export default function Header({}: Props) {
       duration: 1.2,
     }}
     className="flex flex-row items-center text-[grey] cursor-pointer">
-      <SocialIcon
+      
+        <SocialIcon
         className="cursor-pointer"
         network="email"
-        fgColor="gray"
+        fgColor="#F7AB0A"
         bgColor="transparent"
       />
-      <button className= " text-[#F7AB0A] hover:ring-2 ring-[#F7AB0A] duration-200 ease-in-out font-bold text-xl py-2 px-4 rounded-full hidden md:inline-flex">
+      <a href="#contact"><button className= " text-[#F7AB0A] hover:ring-2 ring-[#F7AB0A] duration-200 ease-in-out font-bold text-xl py-2 px-4 rounded-full hidden md:inline-flex">
       <p className="upperCase">
         Get In Touch
       </p>
-      </button>
+      </button></a>
     </motion.div>
   </header>
   );
