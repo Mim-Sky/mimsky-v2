@@ -29,8 +29,8 @@ export default function ExpCard({}: Props) {
           className="w36 h36 rounded-full xl:w-[200px] object-cover object-center "
         />
       </motion.div>
-      <section className="text-whiteText px-0 md:px-10 overflow-y-auto  ">
-        <h4 className="text-3xl font-light">CURRENTLY LEARNING</h4>
+      <section className="text-whiteText px-0 md:px-10 overflow-y-auto">
+        <h4 className="text-2xl font-light">CURRENTLY LEARNING</h4>
         <div className="flex space-x-2 my-2">
         <Image
           src="/react.png"
@@ -69,7 +69,7 @@ export default function ExpCard({}: Props) {
         />
         </div>
         <p className="uppercase py-5 text-gray ">Started: 10-2022 - </p>
-        <ul className="text-whiteText list-disc space-y-4 ml-5 text-md ">
+        <ul className="text-whiteText list-disc space-y-4 ml-5 text-sm md:text-base">
           <li>FrontEnd development: JavaScript, TrueScript, React.js </li>
           <li>Backend development: PHP and Next.js</li>
           <li>Backend: Node.js, Next.js</li>

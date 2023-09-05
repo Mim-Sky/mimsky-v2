@@ -7,7 +7,7 @@ type Props = {};
 
 export default function Header({}: Props) {
   return (
-  <header className="sticky top-0 flex pt-5 justify-between max-w-4xl mx-auto z-50"> 
+  <header className="sticky top-0 flex justify-between max-w-4xl mx-auto z-50"> 
     <motion.div
     initial={{
       x: -500,
@@ -23,15 +23,15 @@ export default function Header({}: Props) {
       duration: 1.2,
     }}
     className="flex flex-row items-center">
-      <SocialIcon url="https://linkedin.com" 
+      <SocialIcon url="https://www.linkedin.com/in/michal-horodyski-722246273/" 
         fgColor="grey" 
         bgColor="transparent" 
         />
-        <SocialIcon url="https://github.com" 
+        <SocialIcon url="https://github.com/Mim-Sky/" 
         fgColor="grey" 
         bgColor="transparent" 
         />
-        <SocialIcon url="https://youtube.com" 
+        <SocialIcon url="https://www.instagram.com/mimskky/" 
         fgColor="grey" 
         bgColor="transparent" 
       />
@@ -51,14 +51,7 @@ export default function Header({}: Props) {
       duration: 1.2,
     }}
     className="flex flex-row items-center text-[grey] cursor-pointer">
-      
-        <SocialIcon
-        className="cursor-pointer"
-        network="email"
-        fgColor="#F7AB0A"
-        bgColor="transparent"
-      />
-      <a href="#contact"><button className= " text-[#F7AB0A] hover:ring-2 ring-[#F7AB0A] duration-200 ease-in-out font-bold text-xl py-2 px-4 rounded-full hidden md:inline-flex">
+      <a href="#contact"><button className= " text-[#F7AB0A] hover:ring-2 ring-[#F7AB0A] duration-200 ease-in-out font-bold text-xl py-2 px-4 rounded-full md:inline-flex">
       <p className="upperCase">
         Get In Touch
       </p>

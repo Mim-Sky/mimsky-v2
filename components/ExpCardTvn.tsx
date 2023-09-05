@@ -30,7 +30,7 @@ export default function ExpCard({}: Props) {
         />
       </motion.div>
       <section className="text-whiteText px-0 md:px-10 overflow-y-auto  ">
-        <h4 className="text-3xl font-light">CUSTOMER SERVICE</h4>
+        <h4 className="text-2xl font-light">CUSTOMER SERVICE</h4>
         <p className="font-bold text-1xl mt-1">TVN Player</p>
         <div className="flex space-x-2 my-2">
         <Image
@@ -49,7 +49,7 @@ export default function ExpCard({}: Props) {
         />
         </div>
         <p className="uppercase py-5 text-gray ">Started work 09.2010 - Ended 12.2016</p>
-        <ul className="text-whiteText list-disc space-y-4 ml-5 text-md ">
+        <ul className="text-whiteText list-disc space-y-4 ml-5 text-sm md:text-base">
           <li>Daily customer service for VOD Web App player.pl</li>
           <li>Solving customer technical issues with app over phone and emails</li>
           <li>Developing customer service strategies</li>
