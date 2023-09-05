@@ -25,7 +25,7 @@ export default function ExpCard({}: Props) {
           src="/mimsky.png"
           width={150}
           height={150}
-          alt="gowork company logo"
+          alt="profile picture"
           className="w36 h36 rounded-full object-cover object-center"
         />
       </motion.div>
@@ -36,35 +36,35 @@ export default function ExpCard({}: Props) {
           src="/react.png"
           width={150}
           height={150}
-          alt="gowork company logo"
+          alt="react logo"
           className="w-10 h-10"
         />
         <Image
           src="/nextjs.png"
           width={150}
           height={150}
-          alt="gowork company logo"
+          alt="nextjs logo"
           className="w-10 h-10"
         />
         <Image
           src="/ts.png"
           width={150}
           height={150}
-          alt="gowork company logo"
+          alt="truescript logo"
           className="w-10 h-10"
         />
         <Image
           src="/php.png"
           width={150}
           height={150}
-          alt="gowork company logo"
+          alt="php logo"
           className="w-10 h-10"
         />
         <Image
           src="/javascript.png"
           width={150}
           height={150}
-          alt="gowork company logo"
+          alt="javascript logo"
           className="w-16 h-10"
         />
         </div>
