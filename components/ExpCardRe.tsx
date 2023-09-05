@@ -29,10 +29,10 @@ export default function ExpCard({}: Props) {
         />
       </motion.div>
       <section className="text-whiteText px-0 md:px-10 overflow-y-auto  ">
-        <h4 className="text-3xl font-light">DRIVER</h4>
+        <h4 className="text-2xl font-light">DRIVER</h4>
         <p className="font-bold text-1xl mt-1">Reykjavik Excursions</p>
         <p className="uppercase py-5 text-gray ">Started work 05.2021 - </p>
-        <ul className="text-whiteText list-disc space-y-4 ml-5 text-md ">
+        <ul className="text-whiteText list-disc space-y-4 ml-5 text-sm md:text-base">
           <li>Delivering transportation solutions to clients ;-)</li>
         </ul>
       </section>

@@ -30,11 +30,11 @@ export default function ExpCard({}: Props) {
         />
       </motion.div>
       <section className="text-whiteText px-0 md:px-10 overflow-y-auto  ">
-        <h4 className="text-3xl font-light">CUSTOMER SERVICE</h4>
+        <h4 className="text-2xl font-light">CUSTOMER SERVICE</h4>
         <p className="font-bold text-1xl mt-1">Lotus Car Rental</p>
         
         <p className="uppercase py-5 text-gray ">Started work 11.2018 - 07.2020</p>
-        <ul className="text-whiteText list-disc space-y-4 ml-5 text-md ">
+        <ul className="text-whiteText list-disc space-y-4 ml-5 text-sm md:text-base">
           <li>Daily customer service</li>
           <li>Customer service through email, phone and over the counter</li>
           <li>Handling payments</li>

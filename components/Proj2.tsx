@@ -16,13 +16,20 @@ function project({}: Props) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         >
-        <Image src="/sample.jpg" alt="project screened on different devices" width={200} height={200}></Image>
+        <Image 
+        src="/portfolio_app.png" 
+        alt="project screenshot" 
+        width={450} 
+        height={450}
+        className="opacity-80">
+        </Image>
       </motion.div>
       <section className="space-y-10 px-0 md:px-10 max-w-6xl ">
-        <h4 className="text-4xl font-semibold text-center">My portfolio page
-          </h4>
-          <p>Portolio page was built with React.js, Typescript, Tailwind CSS for frontend. Nextjs was used for backend. Sanity CMS is being integrated with the project. My goal was to design responsive app with the emphasis on accessibility (WCAG AAA standard).
-          </p>
+      <a href="https://mimsky-page.vercel.app">
+        <h4 className="text-xl md:text-2xl text-center hover:text-[#F7AB0A]">My portfolio
+          </h4></a>
+        <p className="text-base">Portolio page was built with React.js, Typescript, Tailwind CSS for frontend. For visual effects I used Framer Motion which caught my eye due to its simplicity. Nextjs was used for backend. Sanity CMS is being integrated with the project. My goal was to design responsive app with the emphasis on accessibility (WCAG AAA standard).
+        </p>
       </section>
     </section>
   )

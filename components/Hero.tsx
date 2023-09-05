@@ -46,14 +46,12 @@ export default function Hero({}: Props) {
         Web developer
       </h2>
     </div>
-    
     <div>
       <h1 className="text-xl lg:text-3xl font-semibold px-10">
         <span>{text}</span>
         <Cursor cursorColor="siteYellow"/>
       </h1>
     </div>
-    
       <div className="z-10 flex flex-col md:flex-row space-x-2 pt-12 items-center">
       <a href="#about">
         <button className="heroButton outline-none">About</button>
@@ -67,7 +65,6 @@ export default function Hero({}: Props) {
       <a href="#contact">
         <button className="heroButton outline-none">Contact</button>
       </a>
-      
     </div>   
   </motion.div>
   )
