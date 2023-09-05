@@ -22,11 +22,11 @@ export default function ExpCard({}: Props) {
         className="flex"
         >
         <Image
-          src="/gowork-logo.png"
+          src="/mimsky.png"
           width={150}
           height={150}
           alt="gowork company logo"
-          className="w36 h36 rounded-full xl:w-[200px] object-cover object-center "
+          className="w36 h36 rounded-full object-cover object-center"
         />
       </motion.div>
       <section className="text-whiteText px-0 md:px-10 overflow-y-auto">
