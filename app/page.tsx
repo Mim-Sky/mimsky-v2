@@ -35,7 +35,6 @@ import {ChevronUpIcon} from '@heroicons/react/24/solid';
         <section id="contact">
           <ContactMe />
         </section>
-        <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
           <ChevronUpIcon 
@@ -43,7 +42,6 @@ import {ChevronUpIcon} from '@heroicons/react/24/solid';
           className="text-[#F7AB0A] h-10 w-10 filter grayscale hover:grayscale-0"  />
           </div>
         </footer>
-        </Link>
       </div>
     </MotionConfig>
     
