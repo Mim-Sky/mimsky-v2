@@ -47,26 +47,27 @@ export default function About({}: Props) {
               </h4>
               <p className="text-whiteText ">
                 {" "}
-                Welcome to my corner of the digital world! 🚀 I'm a passionate
-                software developer with a year-long journey specializing in
-                front-end technologies like PHP, WordPress, React, and the sleek
-                styling of Tailwind CSS. Beyond the lines of code, my
-                fascination with electronics and IT blossomed during my teenage
-                years. I've tinkered with hardware, constructing and managing my
-                own computers—a hobby turned into a lifelong interest. On the
-                software side, I'm in a perpetual state of learning. My love for
-                efficiency led me to the world of data containerization, where
-                Docker is my playground for streamlined development and
-                deployment. When not immersed in the virtual realm, I indulge in
-                the tangible joy of constructing and building. I've proudly
-                assembled my own server from scratch and now find joy in
-                mastering the art of server management. Join me on this journey
-                where technology meets creativity, and every code line is a step
-                toward innovation! 🌐💻 #TechEnthusiast #CodeArtisan <br></br>{" "}
-                During my "no computer" time I make use of Iceland's incredible
-                enviroment and opportunities. I am a rock and ice climber (with
-                glacier guiding certificate), hiker and a cyclist. I actively
-                take part in a volounteer work (like `Hreinni Hornstrandir`).
+                Welcome to my corner of the digital world! 🚀 I&apos;m a
+                passionate software developer with a year-long journey
+                specializing in front-end technologies like PHP, WordPress,
+                React, and the sleek styling of Tailwind CSS. Beyond the lines
+                of code, my fascination with electronics and IT blossomed during
+                my teenage years. I&apos;ve tinkered with hardware, constructing
+                and managing my own computers—a hobby turned into a lifelong
+                interest. On the software side, I&apos;m in a perpetual state of
+                learning. My love for efficiency led me to the world of data
+                containerization, where Docker is my playground for streamlined
+                development and deployment. When not immersed in the virtual
+                realm, I indulge in the tangible joy of constructing and
+                building. I&apos;ve proudly assembled my own server from scratch
+                and now find joy in mastering the art of server management. Join
+                me on this journey where technology meets creativity, and every
+                code line is a step toward innovation! 🌐💻 #TechEnthusiast
+                #CodeArtisan <br></br> During my no computer time I make use of
+                Iceland&apos;s incredible enviroment and opportunities. I am a
+                rock and ice climber (with glacier guiding certificate), hiker
+                and a cyclist. I actively take part in a volounteer work (like
+                `Hreinni Hornstrandir`).
               </p>
             </section>
           </section>
