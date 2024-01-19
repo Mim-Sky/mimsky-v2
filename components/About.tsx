@@ -68,6 +68,13 @@ export default function About({}: Props) {
                 guiding certificate), hiker, and a cyclist. Actively
                 participating in volunteer work (like &apos;Hreinni
                 Hornstrandir&apos;). I&apos;m also learning Icelandic language!
+                More about my interests and some IT projects you can find{" "}
+                <a
+                  className="underline font-semibold text-siteYellow"
+                  href="https://mimsky.is"
+                >
+                  on my blog!
+                </a>
               </p>
             </section>
           </section>
