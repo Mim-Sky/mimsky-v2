@@ -60,16 +60,15 @@ export default function About({}: Props) {
                 streamlined development and deployment. When not immersed in the
                 virtual realm, there&apos;s joy in the tangible experience of
                 constructing and building. Proudly assembling my own server from
-                scratch, finding joy in mastering the art of server management.
-                Join this journey where technology meets creativity, and every
-                code line is a step toward innovation! 🌐💻 #TechEnthusiast
-                #CodeArtisan <br></br> During no-computer time, leveraging
-                Iceland&apos;s incredible environment and opportunities.
-                I&apos;m a rock and ice climber (with a glacier guiding
-                certificate), hiker, and a cyclist. Actively participating in
-                volunteer work (like &apos;Hreinni Hornstrandir&apos;). I&apos;m
-                also learning Icelandic language! More about my interests and
-                some IT projects you can find{" "}
+                scratch, finding joy in mastering the art of server
+                management.#TechEnthusiast
+                <br></br> During no-computer time, leveraging Iceland&apos;s
+                incredible environment and opportunities. I&apos;m a rock and
+                ice climber (with a glacier guiding certificate), hiker, and a
+                cyclist. Actively participating in volunteer work (like
+                &apos;Hreinni Hornstrandir&apos;). I&apos;m also learning
+                Icelandic language! More about my interests and some IT projects
+                you can find{" "}
                 <a
                   className="underline font-semibold text-siteYellow"
                   href="https://mimsky.is"
